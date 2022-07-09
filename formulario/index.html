@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="logo">
+
+        <h1>XTREME Reponsive Store</h1>
+        <p>Por favor, pedimos que responda às perguntas abaixo para nos ajudar a melhorar a qualidade de nossos serviços</p>
+
+    </div>
+
+    <div id="formulario">
+
+        <div>
+
+            <form action="">
+
+                <fieldset>
+
+                    <legend class="centralizar">Identificação</legend>
+                    <label class="centralizar" for="nome">Nome</label> <br>
+                    <input class="caixa" type="text" name="nome" id="nome"><br>
+                    <label class="centralizar" for="email">E-mail</label><br>
+                    <input class="caixa" type="email" name="email" id="email">
+                    <br>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend class="centralizar">O pedido foi recebido no prazo informado pela loja? </legend>
+
+                    <input type="radio" name="prazo" id="antes" value="1">
+                    <label class="cor" for="antes">Sim, recebi antes do prazo</label>
+                    <br>
+                    
+                    <input type="radio" name="prazo" id="prazo" value="1">
+                    <label  class="cor" for="prazo">Recebi no prazo exato</label>
+                    <br>
+
+                    <input type="radio" name="prazo" id="depois" value="1">
+                    <label  class="cor" for="depois"> Recebi depois do prazo</label>
+                    <br>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend class="centralizar">Foi Fácil encontrar o que desejava? </legend>
+
+                    <input type="radio" name="desejo" id="Sim" value="Sim">
+                    <label  class="cor" for="Sim">Sim</label>
+                    <br>
+
+                    <input type="radio" name="desejo" id="nao" value="nao">
+                    <label  class="cor" for="nao">Não</label>
+                    <br>
+                    
+                </fieldset>
+
+                <fieldset>
+
+                    <legend class="centralizar">O que poderiamos melhorar na loja virtual? </legend>
+
+                    <input type="checkbox" name="variedade" id="variedade" value="1">
+                    <label  class="cor" for="variedade">Variedade</label>
+                    <br>
+
+                    <input type="checkbox" name="preco" id="preco" value="2">
+                    <label  class="cor" for="preco">Preço</label>
+                    <br>
+
+                </fieldset>
+                <br>
+                <br>
+
+
+                <div id="enviar">
+                    <input type="submit">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    background: rgb(68, 26, 1) url(../imagens/fundo.jpg) no-repeat top center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo {
+    color: white;
+    text-align: center;
+
+}
+
+
+#formulario {
+    width: 900px;
+    height: 700px;
+    background: rgba(71, 42, 21, 0.534);
+    margin: auto;
+    border-radius: 15px;
+}
+
+.centralizar {
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.caixa {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background: rgba(247, 235, 235, 0.466);
+}
+
+.cor {
+    color: #fff;
+}
+
+#enviar input {
+    background: rgba(71, 42, 21, 0.534);
+    color: darkgray;
+    padding: 5px;
+    margin: 5px;
+}
+
+#enviar {
+    text-align: center;
+}
+
+fieldset {
+    padding: 15px;
+    margin: 15px;
+    margin-top: 15px;
+}
